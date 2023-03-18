@@ -1,0 +1,65 @@
+html {
+  scroll-behavior: smooth;
+}
+#navbar {
+	position: fixed;
+	width: 100%;
+	z-index: 1000;
+}
+#sec-1 {
+	background-color: #7a8485;
+}
+
+#courses,#tutors {
+	display: flex;
+}
+#c1,#c2,#c3,#c4,#t1,#t2,#t3,#t4 {
+	/*display: flex;
+	float: left;*/
+	margin-left: 5%;
+}
+#h5 {
+	margin-left: 5%;
+}
+#query {
+	background-color: #f6f5f5;
+}
+#register {
+	width: 50%;
+	margin-left: 25%;
+	margin-top: 50px;
+	padding: 10px;
+	border-radius: 10px;
+}
+#message {
+	width: 50%;
+	margin-left: 25%;
+}
+#message_ {
+	display: none;
+}
+#admin-home {
+	margin-top: 30px;
+	background-color: rgb(247, 251, 252);
+	box-shadow:  0 0 2px 2px rgb(232, 227, 227);
+	border: 2px solid rgb(214, 203, 203);
+	border-radius: 10px;
+}
+#btn {
+	border: 1px solid rgb(230, 225, 225);
+}
+@media(max-width:600px){
+			#courses,#tutors {
+				display: block;
+			}
+		#c1,#c2,#c3,#c4,#h5,#t1,#t2,#t3,#t4,#line {
+			margin-left: 25%;
+			margin-top: 5px;
+		}
+		#admin-home {
+			margin-top: 50px;
+		}
+		#btn {
+			margin-top: 10px;
+		}
+  }
